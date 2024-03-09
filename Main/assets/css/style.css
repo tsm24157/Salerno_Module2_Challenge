@@ -1,0 +1,54 @@
+#top {
+  min-height: 60px;
+}
+
+#titles {
+  font-size: 30px;
+  display: inline-block;
+  width: 100px;
+  min-height: 60px;
+  text-align: right;
+}
+
+#altTitle {
+  font-size: 20px;
+  display: inline-block;
+  width: 90px;
+  min-height: 60px;
+  text-align: right;
+}
+
+#content {
+  display: flex;
+  font-size: 20px;
+  margin-left: 8px;
+  padding: 3%;
+  float: right;
+}
+
+.img-container {
+  position: relative;
+}
+
+#about-me, #project, #contact {
+  display: inline-flex;
+}
+
+.project {
+  width: 90%;
+  min-width: 50px;
+  padding: 5%;
+}
+
+
+.project-title {
+  position: relative;
+  top: 25%;
+  left: -5%;
+  transform: translate(-50%, -50%);
+  padding: 5px 5px;
+  font-size: 16px;
+  z-index: 1;
+  height: 20px;
+  min-width: 60px;
+}
